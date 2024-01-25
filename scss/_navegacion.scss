@@ -1,0 +1,41 @@
+/* ESTILO MVIAJES */
+
+.titulo-pagina {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    color: goldenrod;
+}
+
+.barraNavegacion {
+    background-color: #dfffff;
+    border-top: 20px solid #fafafa;
+}
+
+.menuNav a {
+    text-transform: uppercase;
+    font-size: 1, 4rem;
+    border-left: 1px solid lightblue;
+    border-right: 1px solid lightblue;
+    padding: 0%;
+
+    &:hover {
+        background-color: cadetblue;
+        color: #fafafa;
+    }
+}
+
+.imglogo {
+    width: 150px;
+}
+
+.nav-link {
+    color: goldenrod;
+    font-size: 25px;
+}
+
+.titulo1 {
+    color: goldenrod;
+    font-size: 30px;
+}

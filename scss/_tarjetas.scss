@@ -1,0 +1,60 @@
+/* destinos */
+
+.destinos {
+    background-color: #dfffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 2px;
+
+    h2 {
+        font-size: 2rem;
+        color: goldenrod;
+    }
+
+    p {
+        font-family: 'Dancing Script', cursive;
+        color: black;
+        text-align: center;
+        text-transform: lowercase;
+        font-size: 2rem;
+    }
+}
+
+/* BLOGS */
+
+.blogs {
+    background-color: #dfffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.blogs h3 {
+    font-size: 2rem;
+    color: goldenrod;
+
+}
+
+.blogs p {
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 2rem;
+}
+
+.cardcomentario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.imgCard {
+    border-top: 10px solid #fafafa
+}

@@ -1,130 +1,112 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap");
 .body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
-
-
 
 /* ESTILO MVIAJES */
-
 .titulo-pagina {
-    text-align: center;
-    font-size: 3rem;
-    font-family: 'Roboto', sans-serif;
-    text-decoration: underline;
-    color: goldenrod;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline;
+  color: goldenrod;
 }
 
-
 .barraNavegacion {
-    background-color: #dfffff;
-    border-top: 20px solid #fafafa;
+  background-color: #dfffff;
+  border-top: 20px solid #fafafa;
 }
 
 .menuNav a {
-    text-transform: uppercase;
-    font-size: 1,4rem;
-    border-left: 1px solid  lightblue;
-    border-right: 1px solid lightblue;
-    padding: 0%;
+  text-transform: uppercase;
+  font-size: 1, 4rem;
+  border-left: 1px solid lightblue;
+  border-right: 1px solid lightblue;
+  padding: 0%;
 }
-
-.menuNav a:hover  {
-background-color: cadetblue;
-color: #fafafa;
+.menuNav a:hover {
+  background-color: cadetblue;
+  color: #fafafa;
 }
 
 .imglogo {
-    width: 150px;
+  width: 150px;
 }
 
 .nav-link {
-    color: goldenrod;
-    font-size: 25px;
+  color: goldenrod;
+  font-size: 25px;
 }
-
-
 
 .titulo1 {
-    color: goldenrod;
-    font-size: 30px;
+  color: goldenrod;
+  font-size: 30px;
 }
-
 
 /* destinos */
-
-
 .destinos {
-    background-color: #dfffff;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 5px;
-    margin-bottom: 2px;
+  background-color: #dfffff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px;
+  margin-bottom: 2px;
 }
-
-
 .destinos h2 {
-    font-size: 2rem;
-    color: goldenrod;
+  font-size: 2rem;
+  color: goldenrod;
 }
-
 .destinos p {
-    font-family: 'Dancing Script', cursive;
-    color: black;
-    text-align: center;
-    text-transform: lowercase;
-font-size: 2rem;
-
+  font-family: "Dancing Script", cursive;
+  color: black;
+  text-align: center;
+  text-transform: lowercase;
+  font-size: 2rem;
 }
-
 
 /* BLOGS */
-
 .blogs {
-    background-color: #dfffff;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 5px;
-    margin-bottom: 10px;
+  background-color: #dfffff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 
 .blogs h3 {
-    font-size: 2rem;
-    color: goldenrod;
-    
+  font-size: 2rem;
+  color: goldenrod;
 }
 
 .blogs p {
-    font-family: 'Dancing Script', cursive;
-    color: black;
-    text-align: center;
-    text-transform: lowercase;
-    font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+  color: black;
+  text-align: center;
+  text-transform: lowercase;
+  font-size: 2rem;
 }
 
 .cardcomentario {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    height: 100%; 
-} 
-
-.imgCard {
-    border-top: 10px solid #fafafa
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  height: 100%;
 }
 
+.imgCard {
+  border-top: 10px solid #fafafa;
+}
 
 /* new york */
 .nyTitulo {
-    text-align: center;
-    font-size: 3rem;
-    font-family: 'Roboto', sans-serif;
-    text-decoration: underline;
-    color: goldenrod;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline;
+  color: goldenrod;
 }
+
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,8 @@
+//mixing 
+
+@mixin anclas { 
+    background-color: $color-fondo;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}

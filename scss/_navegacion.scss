@@ -5,11 +5,11 @@
     font-size: 3rem;
     font-family: 'Roboto', sans-serif;
     text-decoration: underline;
-    color: goldenrod;
+    color: $color-titulos;
 }
 
 .barraNavegacion {
-    background-color: #dfffff;
+    background-color: $color-fondo;
     border-top: 20px solid #fafafa;
 }
 
@@ -31,11 +31,11 @@
 }
 
 .nav-link {
-    color: goldenrod;
+    color: $color-titulos;
     font-size: 25px;
 }
 
 .titulo1 {
-    color: goldenrod;
+    color: $color-titulos;
     font-size: 30px;
 }

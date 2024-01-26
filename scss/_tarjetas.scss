@@ -1,21 +1,18 @@
 /* destinos */
 
 .destinos {
-    background-color: #dfffff;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
+    @include anclas;
     padding: 5px;
     margin-bottom: 2px;
 
     h2 {
         font-size: 2rem;
-        color: goldenrod;
+        color: $color-titulos;
     }
 
     p {
         font-family: 'Dancing Script', cursive;
-        color: black;
+        color: $color-parrafos;
         text-align: center;
         text-transform: lowercase;
         font-size: 2rem;
@@ -25,23 +22,21 @@
 /* BLOGS */
 
 .blogs {
-    background-color: #dfffff;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
+
+    @include anclas;
     padding: 5px;
     margin-bottom: 10px;
 }
 
-.blogs h3 {
+.blogs h7 {
     font-size: 2rem;
-    color: goldenrod;
+    color: $color-titulos;
 
 }
 
 .blogs p {
     font-family: 'Dancing Script', cursive;
-    color: black;
+    color: $color-parrafos;
     text-align: center;
     text-transform: lowercase;
     font-size: 2rem;

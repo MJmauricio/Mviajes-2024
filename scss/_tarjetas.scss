@@ -42,6 +42,11 @@
     font-size: 2rem;
 }
 
+.titulosblogs {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .cardcomentario {
     display: flex;
     flex-direction: column;
@@ -51,5 +56,5 @@
 }
 
 .imgCard {
-    border-top: 10px solid #fafafa
+    border-top: 10px solid #fafafa;
 }

@@ -14,8 +14,8 @@
 }
 
 .barraNavegacion {
-  background-color: #dfffff;
-  border-top: 20px solid #fafafa;
+  background: #dfffff;
+  border-top: 5px solid #fafafa;
 }
 
 .menuNav a {
@@ -24,10 +24,12 @@
   border-left: 1px solid lightblue;
   border-right: 1px solid lightblue;
   padding: 0%;
+  transition: transform 0.3s ease;
 }
 .menuNav a:hover {
   background-color: cadetblue;
   color: #fafafa;
+  animation: pulse 1s infinite;
 }
 
 .imglogo {
@@ -46,7 +48,7 @@
 
 /* destinos */
 .destinos {
-  background-color: #dfffff;
+  background: #dfffff;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
@@ -67,7 +69,7 @@
 
 /* BLOGS */
 .blogs {
-  background-color: #dfffff;
+  background: #dfffff;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
@@ -86,6 +88,11 @@
   text-align: center;
   text-transform: lowercase;
   font-size: 2rem;
+}
+
+.titulosblogs {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .cardcomentario {

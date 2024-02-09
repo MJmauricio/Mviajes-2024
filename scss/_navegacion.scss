@@ -8,9 +8,9 @@
     color: $color-titulos;
 }
 
-.barraNavegacion {
-    background-color: $color-fondo;
-    border-top: 20px solid #fafafa;
+  .barraNavegacion {
+    background: $color-fondo;
+    border-top: 5px solid #fafafa;
 }
 
 .menuNav a {
@@ -19,10 +19,12 @@
     border-left: 1px solid lightblue;
     border-right: 1px solid lightblue;
     padding: 0%;
+    transition: transform 0.3s ease;
 
     &:hover {
         background-color: cadetblue;
         color: #fafafa;
+        animation: pulse 1s infinite;
     }
 }
 

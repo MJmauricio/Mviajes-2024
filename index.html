@@ -12,6 +12,9 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- CSS PROPIO -->
     <link rel="stylesheet" href="css/estilo.css">
+    <!-- animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="container-fluid">
@@ -20,7 +23,7 @@
             <a class="navbar-brand" href="#">
                 <img class="imglogo" src="img/logotipo.png" alt="logotipo">
             </a>
-            <p class="titulo-pagina">Mviajes</p>
+            <p class="animate__animated animate__lightSpeedInLeft titulo-pagina">Mviajes</p>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,16 +31,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto menuNav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="animate__animated nav-link" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#destinos">Destinos</a>
+                        <a class="animate__animated nav-link" href="#destinos">Destinos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#blogs">Blog</a>
+                        <a class="animate__animated nav-link" href="#blogs">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://wa.me/1154499519">Contacto</a>
+                        <a class="animate__animated nav-link" href="https://wa.me/1154499519">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -93,7 +96,7 @@
 
     <!-- cartas de destinos -->
 
-    <div class="destinos" id="destinos">
+    <div class="data-aos= flip-left destinos" id="destinos">
         <h2>Destinos</h2>
         <p>Tus viajes al mejor lugar</p>
     </div>
@@ -141,9 +144,11 @@
                 <div class="col-md-12">
                     <div class="card-body">
                         <h5 class="card-title">Cruceros </h5>
-                        <p class="card-text">¡Zarpa hacia la aventura con Mviajes! Descubre el lujo y la diversión en
-                            nuestro crucero patrocinado. Navega hacia destinos fascinantes mientras disfrutas de
-                            comodidades de primera clase. ¡Tu escape perfecto te espera a bordo! 🛳</p>
+                        <p class="card-text">
+                            ¡Embárcate en una aventura única con los cruceros de Mviajes! Descubre los destinos más
+                            increíbles a bordo de lujosos barcos. Disfruta de experiencias inolvidables en alta mar,
+                            deleita tu paladar con exquisita gastronomía y sumérgete en la emoción de explorar nuevos
+                            horizontes. En Mviajes, creamos momentos excepcionales. ¡Haz de tus sueños una realidad flotante con nosotros! 🚢🌊</p>
                     </div>
                 </div>
             </div>
@@ -157,10 +162,12 @@
                 <div class="col-md-12">
                     <div class="card-body">
                         <h6 class="card-title">Estados Unidos</h6>
-                        <p class="card-text"> ¡Embárcate en una experiencia americana con Mviajes! Desde los icónicos
-                            paisajes hasta las vibrantes ciudades, te llevamos a descubrir lo mejor de Estados Unidos.
-                            Vive la magia deeste país diverso y emocionante con nosotros. ¡Tu viaje inolvidable comienza
-                            aquí! US✨</p>
+                        <p class="card-text">
+                            ¡Descubre Estados Unidos con Mviajes! Abre las puertas a experiencias auténticas y únicas.
+                            Explora ciudades icónicas, disfruta de la diversidad gastronómica y sumérgete en la belleza
+                            de este fascinante país. En Mviajes, creamos momentos inolvidables para que tu viaje sea
+                            excepcional. ¡Haz de tus sueños una realidad con nosotros en la tierra de las oportunidades!
+                            🇺🇸✨</p>
                     </div>
                 </div>
             </div>
@@ -179,64 +186,72 @@
             <img src="img/blog1.jpg" class="img-fluid rounded-circle" width="240px" height="140px" alt="Europa">
             <role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
                 </role>
-                <h8 class="fw-normal">New York City</h8>
-                <p>Descubre la vibrante Nueva York con Mviajes. Rascacielos, cultura y experiencias inolvidables te
-                    esperan en esta metrópoli única. 🏙️✨</p>
-                <a class="btn btn-secondary" href="newyork.html">Ver mas &raquo;</a>
+                <div>
+                    <h8 class="titulosblogs">New York City</h8>
+                    <p>Descubre la vibrante Nueva York con Mviajes. Rascacielos, cultura y experiencias inolvidables te
+                        esperan en esta metrópoli única. 🏙️✨</p>
+                    <a class="btn btn-secondary" href="html/newyork.html"> Conocer Destino &raquo;</a>
+                </div>
+
         </div>
         <div class="col-xl-4 col-md-6 col-sm-12">
             <img src="img/blog2.jpeg" class="img-fluid rounded-circle" width="240px" height="140px" alt="crucero">
             <role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-                </svg>
-                <h9 class="fw-normal">Roma</h9>
-                <p>Explora la eterna Roma con Mviajes. Coliseo, historia milenaria y auténtica cocina italiana te
-                    esperan en esta joya europea. 🏛️🍝</p>
-                <p><a class="btn btn-secondary" href="cruceros.html">Ver mas &raquo;</a></p>
+                </role>
+                <div>
+                    <h9 class="titulosblogs">Roma</h9>
+                    <p>Explora la eterna Roma con Mviajes. Coliseo, historia milenaria y auténtica cocina italiana te
+                        esperan en esta joya europea. 🏛️🍝</p>
+                    <p><a class="btn btn-secondary" href="html/cruceros.html"> Conocer Destino &raquo;</a></p>
+                </div>
         </div>
         <div class="col-xl-4 col-md-6 col-sm-12">
             <img src="img/blog3.jpg" class="img-fluid rounded-circle" width="240px" height="140px" alt="ushuaia">
             <role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-                </svg>
-                <h10 class="fw-normal">Ushuaia</h10>
-                <p>Viaja al fin del mundo con Mviajes. Glaciares, paisajes únicos y aventuras en la Patagonia argentina
-                    te aguardan en Ushuaia. ❄️🏔️</p>
-                <p><a class="btn btn-secondary" href="ushuaia.html">Ver mas &raquo;</a></p>
+                </role>
+                <div>
+                    <h10 class="titulosblogs">Ushuaia</h10>
+                    <p>Viaja al fin del mundo con Mviajes. Glaciares, paisajes únicos y aventuras en la Patagonia
+                        argentina
+                        te aguardan en Ushuaia. ❄️🏔️</p>
+                    <p><a class="btn btn-secondary" href="html/ushuaia.html"> Conocer Destino &raquo;</a></p>
+
+                </div>
         </div>
-    </div>
 
 
-    <!-- Footer -->
+        <!-- Footer -->
 
 
-    <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <p class="col-md-4 mb-0 text-body-secondary">&copy; 2024 Mviajes Company</p>
-
-
-
-            <ul class="nav col-md-4 justify-content-end">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Inicio</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Destinos</a></li>
-                <li class="nav-item"><a href="Seguros.html" class="nav-link px-2 text-body-secondary">Seguros</a></li>
-                <!-- los siguientes numeros de whatsapp son meramente ilustrativos -->
-                <li class="nav-item"><a href="https://wa.me/1154499519" target="_blank"
-                        class="nav-link px-2 text-body-secondary">Trabaja con nosotros</a></li>
-                <li class="nav-item"><a href="https://wa.me/1154499519" target="_blank"
-                        class="nav-link px-2 text-body-secondary">Contactanos</a></li>
-            </ul>
-        </footer>
-    </div>
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <p class="col-md-4 mb-0 text-body-secondary">&copy; 2024 Mviajes Company</p>
 
 
 
+                <ul class="nav col-md-4 justify-content-end">
+                    <li class="nav-item"><a href="#navbarNav" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+                    <li class="nav-item"><a href="#destinos" class="nav-link px-2 text-body-secondary">Destinos</a></li>
+                    <li class="nav-item"><a href="/html/Seguros.html"
+                            class="nav-link px-2 text-body-secondary">Seguros</a></li>
+                    <!-- los siguientes numeros de whatsapp son meramente ilustrativos -->
+                    <li class="nav-item"><a href="https://wa.me/1154499519" target="_blank"
+                            class="nav-link px-2 text-body-secondary">Trabaja con nosotros</a></li>
+                    <li class="nav-item"><a href="https://wa.me/1154499519" target="_blank"
+                            class="nav-link px-2 text-body-secondary">Contactanos</a></li>
+                </ul>
+            </footer>
+        </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
 
 </body>
 
